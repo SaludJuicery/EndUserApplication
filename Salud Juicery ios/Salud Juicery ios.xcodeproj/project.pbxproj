@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876FF03B1B91009B00A9C611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF03A1B91009B00A9C611 /* main.m */; };
+		876FF03E1B91009B00A9C611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF03D1B91009B00A9C611 /* AppDelegate.m */; };
+		876FF0411B91009B00A9C611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF0401B91009B00A9C611 /* ViewController.m */; };
+		876FF0441B91009B00A9C611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FF0421B91009B00A9C611 /* Main.storyboard */; };
+		876FF0461B91009B00A9C611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876FF0451B91009B00A9C611 /* Images.xcassets */; };
+		876FF0491B91009B00A9C611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876FF0471B91009B00A9C611 /* LaunchScreen.xib */; };
+		876FF0551B91009B00A9C611 /* Salud_Juicery_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF0541B91009B00A9C611 /* Salud_Juicery_iosTests.m */; };
+		876FF0621B9100E400A9C611 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 876FF05E1B9100E400A9C611 /* FacebookSDKStrings.bundle */; };
+		876FF0631B9100E400A9C611 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876FF05F1B9100E400A9C611 /* FBSDKCoreKit.framework */; };
+		876FF0641B9100E400A9C611 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876FF0601B9100E400A9C611 /* FBSDKLoginKit.framework */; };
+		876FF0651B9100E400A9C611 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876FF0611B9100E400A9C611 /* FBSDKShareKit.framework */; };
+		876FF0681B91092B00A9C611 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF0671B91092B00A9C611 /* LoginViewController.m */; };
+		876FF06B1B9109D200A9C611 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF06A1B9109D200A9C611 /* Settings.m */; };
+		876FF06E1B910DE600A9C611 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 876FF06C1B910DE600A9C611 /* GoogleSignIn.bundle */; };
+		876FF06F1B910DE600A9C611 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876FF06D1B910DE600A9C611 /* GoogleSignIn.framework */; };
+		87CF59551B9119D7006EBD14 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CF59541B9119D7006EBD14 /* StoreKit.framework */; };
+		87CF595B1B912614006EBD14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87CF595A1B912614006EBD14 /* GoogleService-Info.plist */; };
+		87CF595D1B912CC3006EBD14 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CF595C1B912CC3006EBD14 /* AddressBook.framework */; };
+		87CF595F1B912CE0006EBD14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CF595E1B912CE0006EBD14 /* SystemConfiguration.framework */; };
+		87CF59621B913C93006EBD14 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59611B913C93006EBD14 /* MenuViewController.m */; };
+		87CF59651B913E54006EBD14 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59641B913E54006EBD14 /* Utility.m */; };
+		87CF599B1B9D3A3D006EBD14 /* YSLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59981B9D3A3D006EBD14 /* YSLContainerViewController.m */; };
+		87CF599C1B9D3A3D006EBD14 /* YSLScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF599A1B9D3A3D006EBD14 /* YSLScrollMenuView.m */; };
+		87CF59A61B9D3A65006EBD14 /* photo_sample_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF599E1B9D3A65006EBD14 /* photo_sample_01.png */; };
+		87CF59A71B9D3A65006EBD14 /* photo_sample_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF599F1B9D3A65006EBD14 /* photo_sample_02.png */; };
+		87CF59A81B9D3A65006EBD14 /* photo_sample_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A01B9D3A65006EBD14 /* photo_sample_03.png */; };
+		87CF59A91B9D3A65006EBD14 /* photo_sample_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A11B9D3A65006EBD14 /* photo_sample_04.png */; };
+		87CF59AA1B9D3A65006EBD14 /* photo_sample_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A21B9D3A65006EBD14 /* photo_sample_05.png */; };
+		87CF59AB1B9D3A65006EBD14 /* photo_sample_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A31B9D3A65006EBD14 /* photo_sample_06.png */; };
+		87CF59AC1B9D3A65006EBD14 /* photo_sample_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A41B9D3A65006EBD14 /* photo_sample_07.png */; };
+		87CF59AD1B9D3A65006EBD14 /* photo_sample_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59A51B9D3A65006EBD14 /* photo_sample_08.png */; };
+		87CF59B91B9D3B9E006EBD14 /* JuicesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59B71B9D3B9E006EBD14 /* JuicesListViewController.m */; };
+		87CF59BA1B9D3B9E006EBD14 /* JuicesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59B81B9D3B9E006EBD14 /* JuicesListViewController.xib */; };
+		87CF59BE1B9D3BC7006EBD14 /* BowlsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59BC1B9D3BC7006EBD14 /* BowlsListViewController.m */; };
+		87CF59BF1B9D3BC7006EBD14 /* BowlsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59BD1B9D3BC7006EBD14 /* BowlsListViewController.xib */; };
+		87CF59E11B9D3E38006EBD14 /* JuicesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59DF1B9D3E38006EBD14 /* JuicesCell.m */; };
+		87CF59E21B9D3E38006EBD14 /* JuicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59E01B9D3E38006EBD14 /* JuicesCell.xib */; };
+		87CF59E61B9D3E59006EBD14 /* BowlsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59E41B9D3E59006EBD14 /* BowlsCell.m */; };
+		87CF59E71B9D3E59006EBD14 /* BowlsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF59E51B9D3E59006EBD14 /* BowlsCell.xib */; };
+		87CF59EF1B9D45F6006EBD14 /* Juice.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59EE1B9D45F6006EBD14 /* Juice.m */; };
+		87CF5A011B9D4633006EBD14 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59F31B9D4633006EBD14 /* NSObject+SBJSON.m */; };
+		87CF5A021B9D4633006EBD14 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59F51B9D4633006EBD14 /* NSString+SBJSON.m */; };
+		87CF5A031B9D4633006EBD14 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59F71B9D4633006EBD14 /* SBJSON.m */; };
+		87CF5A041B9D4633006EBD14 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59F91B9D4633006EBD14 /* SBJsonBase.m */; };
+		87CF5A051B9D4633006EBD14 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59FB1B9D4633006EBD14 /* SBJsonParser.m */; };
+		87CF5A061B9D4633006EBD14 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF59FD1B9D4633006EBD14 /* SBJsonWriter.m */; };
+		87CF5A071B9D4633006EBD14 /* myJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF5A001B9D4633006EBD14 /* myJson.m */; };
+		87CF5A0B1B9D4C4A006EBD14 /* JuiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CF5A091B9D4C4A006EBD14 /* JuiceDetailViewController.m */; };
+		87CF5A0C1B9D4C4A006EBD14 /* JuiceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF5A0A1B9D4C4A006EBD14 /* JuiceDetailViewController.xib */; };
+		87D5425C1BA5B33D003ADC4F /* SmootheesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5425A1BA5B33D003ADC4F /* SmootheesListViewController.m */; };
+		87D5425D1BA5B33D003ADC4F /* SmootheesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D5425B1BA5B33D003ADC4F /* SmootheesListViewController.xib */; };
+		87D542621BA5B408003ADC4F /* SmootheesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542601BA5B408003ADC4F /* SmootheesCell.m */; };
+		87D542631BA5B408003ADC4F /* SmootheesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D542611BA5B408003ADC4F /* SmootheesCell.xib */; };
+		87D542741BA5B86C003ADC4F /* HealthshotsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5426F1BA5B86C003ADC4F /* HealthshotsCell.m */; };
+		87D542751BA5B86C003ADC4F /* HealthshotsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D542701BA5B86C003ADC4F /* HealthshotsCell.xib */; };
+		87D542761BA5B86C003ADC4F /* HealthshotsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542721BA5B86C003ADC4F /* HealthshotsListViewController.m */; };
+		87D542771BA5B86C003ADC4F /* HealthshotsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D542731BA5B86C003ADC4F /* HealthshotsListViewController.xib */; };
+		87D5427B1BA5BCD1003ADC4F /* HotbrevListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542791BA5BCD1003ADC4F /* HotbrevListViewController.m */; };
+		87D5427C1BA5BCD1003ADC4F /* HotbrevListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D5427A1BA5BCD1003ADC4F /* HotbrevListViewController.xib */; };
+		87D542801BA5BD1B003ADC4F /* HotbrevCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5427E1BA5BD1A003ADC4F /* HotbrevCell.m */; };
+		87D542811BA5BD1B003ADC4F /* HotbrevCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D5427F1BA5BD1A003ADC4F /* HotbrevCell.xib */; };
+		87D542841BA5C58E003ADC4F /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542831BA5C58E003ADC4F /* LocationViewController.m */; };
+		87D542871BA5C5D0003ADC4F /* LoyaltyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542861BA5C5D0003ADC4F /* LoyaltyViewController.m */; };
+		87D5428D1BA5C80B003ADC4F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5428C1BA5C80B003ADC4F /* HomeViewController.m */; };
+		87D542901BA5CAFA003ADC4F /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5428F1BA5CAFA003ADC4F /* SidebarTableViewController.m */; };
+		87D542941BA5EE50003ADC4F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542931BA5EE50003ADC4F /* SWRevealViewController.m */; };
+		87D542D41BA64153003ADC4F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D542D31BA64153003ADC4F /* MapKit.framework */; };
+		87D542D71BAF57D3003ADC4F /* MenuDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542D61BAF57D3003ADC4F /* MenuDetailsViewController.m */; };
+		87D542DA1BAF6CD3003ADC4F /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542D91BAF6CD3003ADC4F /* IQDropDownTextField.m */; };
+		87D542DE1BAF8E39003ADC4F /* DYAlertPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542DD1BAF8E39003ADC4F /* DYAlertPickView.m */; };
+		87D5434A1BAFB8A4003ADC4F /* PKPayment+Stripe.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542E21BAFB8A4003ADC4F /* PKPayment+Stripe.m */; };
+		87D5434B1BAFB8A4003ADC4F /* STPAPIClient+ApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542E31BAFB8A4003ADC4F /* STPAPIClient+ApplePay.m */; };
+		87D5434C1BAFB8A4003ADC4F /* Stripe+ApplePay.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542E41BAFB8A4003ADC4F /* Stripe+ApplePay.m */; };
+		87D5434D1BAFB8A4003ADC4F /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542E61BAFB8A4003ADC4F /* Project-Debug.xcconfig */; };
+		87D5434E1BAFB8A4003ADC4F /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542E71BAFB8A4003ADC4F /* Project-Release.xcconfig */; };
+		87D5434F1BAFB8A4003ADC4F /* Project-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542E81BAFB8A4003ADC4F /* Project-Shared.xcconfig */; };
+		87D543501BAFB8A4003ADC4F /* StripeiOS Tests-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542E91BAFB8A4003ADC4F /* StripeiOS Tests-Debug.xcconfig */; };
+		87D543511BAFB8A4003ADC4F /* StripeiOS Tests-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542EA1BAFB8A4003ADC4F /* StripeiOS Tests-Release.xcconfig */; };
+		87D543521BAFB8A4003ADC4F /* StripeiOS Tests-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542EB1BAFB8A4003ADC4F /* StripeiOS Tests-Shared.xcconfig */; };
+		87D543531BAFB8A4003ADC4F /* StripeiOS-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542EC1BAFB8A4003ADC4F /* StripeiOS-Debug.xcconfig */; };
+		87D543541BAFB8A4003ADC4F /* StripeiOS-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542ED1BAFB8A4003ADC4F /* StripeiOS-Release.xcconfig */; };
+		87D543551BAFB8A4003ADC4F /* StripeiOS-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542EE1BAFB8A4003ADC4F /* StripeiOS-Shared.xcconfig */; };
+		87D543561BAFB8A4003ADC4F /* StripeiOSStatic.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542EF1BAFB8A4003ADC4F /* StripeiOSStatic.xcconfig */; };
+		87D543571BAFB8A4003ADC4F /* StripeiOSStaticFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F01BAFB8A4003ADC4F /* StripeiOSStaticFramework.xcconfig */; };
+		87D543581BAFB8A4003ADC4F /* StripeOSX-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F11BAFB8A4003ADC4F /* StripeOSX-Debug.xcconfig */; };
+		87D543591BAFB8A4003ADC4F /* StripeOSX-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F21BAFB8A4003ADC4F /* StripeOSX-Release.xcconfig */; };
+		87D5435A1BAFB8A4003ADC4F /* StripeOSX-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F31BAFB8A4003ADC4F /* StripeOSX-Shared.xcconfig */; };
+		87D5435B1BAFB8A4003ADC4F /* StripeOSXTests-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F41BAFB8A4003ADC4F /* StripeOSXTests-Debug.xcconfig */; };
+		87D5435C1BAFB8A4003ADC4F /* StripeOSXTests-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F51BAFB8A4003ADC4F /* StripeOSXTests-Release.xcconfig */; };
+		87D5435D1BAFB8A4003ADC4F /* StripeOSXTests-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 87D542F61BAFB8A4003ADC4F /* StripeOSXTests-Shared.xcconfig */; };
+		87D5435E1BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542FA1BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.m */; };
+		87D5435F1BAFB8A4003ADC4F /* STPCheckoutOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542FB1BAFB8A4003ADC4F /* STPCheckoutOptions.m */; };
+		87D543601BAFB8A4003ADC4F /* STPCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542FC1BAFB8A4003ADC4F /* STPCheckoutViewController.m */; };
+		87D543611BAFB8A4003ADC4F /* STPColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D542FF1BAFB8A4003ADC4F /* STPColorUtils.m */; };
+		87D543621BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543011BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.m */; };
+		87D543631BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543031BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.m */; };
+		87D543641BAFB8A4003ADC4F /* STPStrictURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543051BAFB8A4003ADC4F /* STPStrictURLProtocol.m */; };
+		87D543651BAFB8A4003ADC4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87D543061BAFB8A4003ADC4F /* Info.plist */; };
+		87D543661BAFB8A4003ADC4F /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 87D543071BAFB8A4003ADC4F /* module.modulemap */; };
+		87D543671BAFB8A4003ADC4F /* stp_card_amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5431C1BAFB8A4003ADC4F /* stp_card_amex.png */; };
+		87D543681BAFB8A4003ADC4F /* stp_card_amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5431D1BAFB8A4003ADC4F /* stp_card_amex@2x.png */; };
+		87D543691BAFB8A4003ADC4F /* stp_card_amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5431E1BAFB8A4003ADC4F /* stp_card_amex@3x.png */; };
+		87D5436A1BAFB8A4003ADC4F /* stp_card_cvc.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5431F1BAFB8A4003ADC4F /* stp_card_cvc.png */; };
+		87D5436B1BAFB8A4003ADC4F /* stp_card_cvc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543201BAFB8A4003ADC4F /* stp_card_cvc@2x.png */; };
+		87D5436C1BAFB8A4003ADC4F /* stp_card_cvc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543211BAFB8A4003ADC4F /* stp_card_cvc@3x.png */; };
+		87D5436D1BAFB8A4003ADC4F /* stp_card_cvc_amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543221BAFB8A4003ADC4F /* stp_card_cvc_amex.png */; };
+		87D5436E1BAFB8A4003ADC4F /* stp_card_cvc_amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543231BAFB8A4003ADC4F /* stp_card_cvc_amex@2x.png */; };
+		87D5436F1BAFB8A4003ADC4F /* stp_card_cvc_amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543241BAFB8A4003ADC4F /* stp_card_cvc_amex@3x.png */; };
+		87D543701BAFB8A4003ADC4F /* stp_card_diners.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543251BAFB8A4003ADC4F /* stp_card_diners.png */; };
+		87D543711BAFB8A4003ADC4F /* stp_card_diners@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543261BAFB8A4003ADC4F /* stp_card_diners@2x.png */; };
+		87D543721BAFB8A4003ADC4F /* stp_card_diners@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543271BAFB8A4003ADC4F /* stp_card_diners@3x.png */; };
+		87D543731BAFB8A4003ADC4F /* stp_card_discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543281BAFB8A4003ADC4F /* stp_card_discover.png */; };
+		87D543741BAFB8A4003ADC4F /* stp_card_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543291BAFB8A4003ADC4F /* stp_card_discover@2x.png */; };
+		87D543751BAFB8A4003ADC4F /* stp_card_discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432A1BAFB8A4003ADC4F /* stp_card_discover@3x.png */; };
+		87D543761BAFB8A4003ADC4F /* stp_card_jcb.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432B1BAFB8A4003ADC4F /* stp_card_jcb.png */; };
+		87D543771BAFB8A4003ADC4F /* stp_card_jcb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432C1BAFB8A4003ADC4F /* stp_card_jcb@2x.png */; };
+		87D543781BAFB8A4003ADC4F /* stp_card_jcb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432D1BAFB8A4003ADC4F /* stp_card_jcb@3x.png */; };
+		87D543791BAFB8A4003ADC4F /* stp_card_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432E1BAFB8A4003ADC4F /* stp_card_mastercard.png */; };
+		87D5437A1BAFB8A4003ADC4F /* stp_card_mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D5432F1BAFB8A4003ADC4F /* stp_card_mastercard@2x.png */; };
+		87D5437B1BAFB8A4003ADC4F /* stp_card_mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543301BAFB8A4003ADC4F /* stp_card_mastercard@3x.png */; };
+		87D5437C1BAFB8A4003ADC4F /* stp_card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543311BAFB8A4003ADC4F /* stp_card_placeholder.png */; };
+		87D5437D1BAFB8A4003ADC4F /* stp_card_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543321BAFB8A4003ADC4F /* stp_card_placeholder@2x.png */; };
+		87D5437E1BAFB8A4003ADC4F /* stp_card_placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543331BAFB8A4003ADC4F /* stp_card_placeholder@3x.png */; };
+		87D5437F1BAFB8A4003ADC4F /* stp_card_placeholder_template.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543341BAFB8A4003ADC4F /* stp_card_placeholder_template.png */; };
+		87D543801BAFB8A4003ADC4F /* stp_card_placeholder_template@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543351BAFB8A4003ADC4F /* stp_card_placeholder_template@2x.png */; };
+		87D543811BAFB8A4003ADC4F /* stp_card_placeholder_template@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543361BAFB8A4003ADC4F /* stp_card_placeholder_template@3x.png */; };
+		87D543821BAFB8A4003ADC4F /* stp_card_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543371BAFB8A4003ADC4F /* stp_card_visa.png */; };
+		87D543831BAFB8A4003ADC4F /* stp_card_visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543381BAFB8A4003ADC4F /* stp_card_visa@2x.png */; };
+		87D543841BAFB8A4003ADC4F /* stp_card_visa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D543391BAFB8A4003ADC4F /* stp_card_visa@3x.png */; };
+		87D543851BAFB8A4003ADC4F /* STPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5433A1BAFB8A4003ADC4F /* STPAPIClient.m */; };
+		87D543861BAFB8A4003ADC4F /* STPAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5433C1BAFB8A4003ADC4F /* STPAPIConnection.m */; };
+		87D543871BAFB8A4003ADC4F /* STPBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5433D1BAFB8A4003ADC4F /* STPBankAccount.m */; };
+		87D543881BAFB8A4003ADC4F /* STPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5433E1BAFB8A4003ADC4F /* STPCard.m */; };
+		87D543891BAFB8A4003ADC4F /* STPCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D5433F1BAFB8A4003ADC4F /* STPCardValidator.m */; };
+		87D5438A1BAFB8A4003ADC4F /* STPFormEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543411BAFB8A4003ADC4F /* STPFormEncoder.m */; };
+		87D5438B1BAFB8A4003ADC4F /* STPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543421BAFB8A4003ADC4F /* STPToken.m */; };
+		87D5438C1BAFB8A4003ADC4F /* StripeError.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543431BAFB8A4003ADC4F /* StripeError.m */; };
+		87D5438D1BAFB8A4003ADC4F /* STPFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543461BAFB8A4003ADC4F /* STPFormTextField.m */; };
+		87D5438E1BAFB8A4003ADC4F /* STPPaymentCardTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543471BAFB8A4003ADC4F /* STPPaymentCardTextField.m */; };
+		87D5438F1BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543491BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.m */; };
+		87D543921BAFB934003ADC4F /* RWStripeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D543911BAFB934003ADC4F /* RWStripeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876FF04F1B91009B00A9C611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876FF02D1B91009B00A9C611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876FF0341B91009B00A9C611;
+			remoteInfo = "Salud Juicery ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876FF0351B91009B00A9C611 /* Salud Juicery ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salud Juicery ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FF0391B91009B00A9C611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FF03A1B91009B00A9C611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876FF03C1B91009B00A9C611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		876FF03D1B91009B00A9C611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		876FF03F1B91009B00A9C611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		876FF0401B91009B00A9C611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		876FF0431B91009B00A9C611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876FF0451B91009B00A9C611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		876FF0481B91009B00A9C611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		876FF04E1B91009B00A9C611 /* Salud Juicery iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salud Juicery iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FF0531B91009B00A9C611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FF0541B91009B00A9C611 /* Salud_Juicery_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Salud_Juicery_iosTests.m; sourceTree = "<group>"; };
+		876FF05E1B9100E400A9C611 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = ../../Documents/FacebookSDK/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		876FF05F1B9100E400A9C611 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		876FF0601B9100E400A9C611 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		876FF0611B9100E400A9C611 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		876FF0661B91092B00A9C611 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		876FF0671B91092B00A9C611 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		876FF0691B9109D200A9C611 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		876FF06A1B9109D200A9C611 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		876FF06C1B910DE600A9C611 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = ../../Documents/google_signin_sdk_2_2_0/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		876FF06D1B910DE600A9C611 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../Documents/google_signin_sdk_2_2_0/GoogleSignIn.framework; sourceTree = "<group>"; };
+		87CF59541B9119D7006EBD14 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		87CF595A1B912614006EBD14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87CF595C1B912CC3006EBD14 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		87CF595E1B912CE0006EBD14 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		87CF59601B913C93006EBD14 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		87CF59611B913C93006EBD14 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		87CF59631B913E54006EBD14 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		87CF59641B913E54006EBD14 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		87CF59971B9D3A3D006EBD14 /* YSLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLContainerViewController.h; sourceTree = "<group>"; };
+		87CF59981B9D3A3D006EBD14 /* YSLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLContainerViewController.m; sourceTree = "<group>"; };
+		87CF59991B9D3A3D006EBD14 /* YSLScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLScrollMenuView.h; sourceTree = "<group>"; };
+		87CF599A1B9D3A3D006EBD14 /* YSLScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLScrollMenuView.m; sourceTree = "<group>"; };
+		87CF599E1B9D3A65006EBD14 /* photo_sample_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_01.png; sourceTree = "<group>"; };
+		87CF599F1B9D3A65006EBD14 /* photo_sample_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_02.png; sourceTree = "<group>"; };
+		87CF59A01B9D3A65006EBD14 /* photo_sample_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_03.png; sourceTree = "<group>"; };
+		87CF59A11B9D3A65006EBD14 /* photo_sample_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_04.png; sourceTree = "<group>"; };
+		87CF59A21B9D3A65006EBD14 /* photo_sample_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_05.png; sourceTree = "<group>"; };
+		87CF59A31B9D3A65006EBD14 /* photo_sample_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_06.png; sourceTree = "<group>"; };
+		87CF59A41B9D3A65006EBD14 /* photo_sample_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_07.png; sourceTree = "<group>"; };
+		87CF59A51B9D3A65006EBD14 /* photo_sample_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_sample_08.png; sourceTree = "<group>"; };
+		87CF59B61B9D3B9E006EBD14 /* JuicesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuicesListViewController.h; path = ../JuicesListViewController.h; sourceTree = "<group>"; };
+		87CF59B71B9D3B9E006EBD14 /* JuicesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuicesListViewController.m; path = ../JuicesListViewController.m; sourceTree = "<group>"; };
+		87CF59B81B9D3B9E006EBD14 /* JuicesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JuicesListViewController.xib; path = ../JuicesListViewController.xib; sourceTree = "<group>"; };
+		87CF59BB1B9D3BC7006EBD14 /* BowlsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BowlsListViewController.h; path = ../BowlsListViewController.h; sourceTree = "<group>"; };
+		87CF59BC1B9D3BC7006EBD14 /* BowlsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BowlsListViewController.m; path = ../BowlsListViewController.m; sourceTree = "<group>"; };
+		87CF59BD1B9D3BC7006EBD14 /* BowlsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BowlsListViewController.xib; path = ../BowlsListViewController.xib; sourceTree = "<group>"; };
+		87CF59DE1B9D3E38006EBD14 /* JuicesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuicesCell.h; path = ../JuicesCell.h; sourceTree = "<group>"; };
+		87CF59DF1B9D3E38006EBD14 /* JuicesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JuicesCell.m; path = ../JuicesCell.m; sourceTree = "<group>"; };
+		87CF59E01B9D3E38006EBD14 /* JuicesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JuicesCell.xib; path = ../JuicesCell.xib; sourceTree = "<group>"; };
+		87CF59E31B9D3E59006EBD14 /* BowlsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BowlsCell.h; path = ../BowlsCell.h; sourceTree = "<group>"; };
+		87CF59E41B9D3E59006EBD14 /* BowlsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BowlsCell.m; path = ../BowlsCell.m; sourceTree = "<group>"; };
+		87CF59E51B9D3E59006EBD14 /* BowlsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BowlsCell.xib; path = ../BowlsCell.xib; sourceTree = "<group>"; };
+		87CF59ED1B9D45F6006EBD14 /* Juice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Juice.h; sourceTree = "<group>"; };
+		87CF59EE1B9D45F6006EBD14 /* Juice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Juice.m; sourceTree = "<group>"; };
+		87CF59F11B9D4633006EBD14 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		87CF59F21B9D4633006EBD14 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		87CF59F31B9D4633006EBD14 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		87CF59F41B9D4633006EBD14 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		87CF59F51B9D4633006EBD14 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		87CF59F61B9D4633006EBD14 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		87CF59F71B9D4633006EBD14 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		87CF59F81B9D4633006EBD14 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		87CF59F91B9D4633006EBD14 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		87CF59FA1B9D4633006EBD14 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		87CF59FB1B9D4633006EBD14 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		87CF59FC1B9D4633006EBD14 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		87CF59FD1B9D4633006EBD14 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		87CF59FF1B9D4633006EBD14 /* myJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myJson.h; sourceTree = "<group>"; };
+		87CF5A001B9D4633006EBD14 /* myJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myJson.m; sourceTree = "<group>"; };
+		87CF5A081B9D4C4A006EBD14 /* JuiceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuiceDetailViewController.h; sourceTree = "<group>"; };
+		87CF5A091B9D4C4A006EBD14 /* JuiceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuiceDetailViewController.m; sourceTree = "<group>"; };
+		87CF5A0A1B9D4C4A006EBD14 /* JuiceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JuiceDetailViewController.xib; sourceTree = "<group>"; };
+		87D542591BA5B33D003ADC4F /* SmootheesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmootheesListViewController.h; path = ../SmootheesListViewController.h; sourceTree = "<group>"; };
+		87D5425A1BA5B33D003ADC4F /* SmootheesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmootheesListViewController.m; path = ../SmootheesListViewController.m; sourceTree = "<group>"; };
+		87D5425B1BA5B33D003ADC4F /* SmootheesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmootheesListViewController.xib; path = ../SmootheesListViewController.xib; sourceTree = "<group>"; };
+		87D5425F1BA5B408003ADC4F /* SmootheesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmootheesCell.h; path = ../SmootheesCell.h; sourceTree = "<group>"; };
+		87D542601BA5B408003ADC4F /* SmootheesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmootheesCell.m; path = ../SmootheesCell.m; sourceTree = "<group>"; };
+		87D542611BA5B408003ADC4F /* SmootheesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmootheesCell.xib; path = ../SmootheesCell.xib; sourceTree = "<group>"; };
+		87D5426E1BA5B86C003ADC4F /* HealthshotsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthshotsCell.h; sourceTree = "<group>"; };
+		87D5426F1BA5B86C003ADC4F /* HealthshotsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthshotsCell.m; sourceTree = "<group>"; };
+		87D542701BA5B86C003ADC4F /* HealthshotsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthshotsCell.xib; sourceTree = "<group>"; };
+		87D542711BA5B86C003ADC4F /* HealthshotsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthshotsListViewController.h; sourceTree = "<group>"; };
+		87D542721BA5B86C003ADC4F /* HealthshotsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthshotsListViewController.m; sourceTree = "<group>"; };
+		87D542731BA5B86C003ADC4F /* HealthshotsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthshotsListViewController.xib; sourceTree = "<group>"; };
+		87D542781BA5BCD1003ADC4F /* HotbrevListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotbrevListViewController.h; path = ../HotbrevListViewController.h; sourceTree = "<group>"; };
+		87D542791BA5BCD1003ADC4F /* HotbrevListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotbrevListViewController.m; path = ../HotbrevListViewController.m; sourceTree = "<group>"; };
+		87D5427A1BA5BCD1003ADC4F /* HotbrevListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotbrevListViewController.xib; path = ../HotbrevListViewController.xib; sourceTree = "<group>"; };
+		87D5427D1BA5BD1A003ADC4F /* HotbrevCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotbrevCell.h; path = ../HotbrevCell.h; sourceTree = "<group>"; };
+		87D5427E1BA5BD1A003ADC4F /* HotbrevCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotbrevCell.m; path = ../HotbrevCell.m; sourceTree = "<group>"; };
+		87D5427F1BA5BD1A003ADC4F /* HotbrevCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotbrevCell.xib; path = ../HotbrevCell.xib; sourceTree = "<group>"; };
+		87D542821BA5C58E003ADC4F /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = ../LocationViewController.h; sourceTree = "<group>"; };
+		87D542831BA5C58E003ADC4F /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = ../LocationViewController.m; sourceTree = "<group>"; };
+		87D542851BA5C5D0003ADC4F /* LoyaltyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoyaltyViewController.h; path = ../LoyaltyViewController.h; sourceTree = "<group>"; };
+		87D542861BA5C5D0003ADC4F /* LoyaltyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoyaltyViewController.m; path = ../LoyaltyViewController.m; sourceTree = "<group>"; };
+		87D5428B1BA5C80B003ADC4F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		87D5428C1BA5C80B003ADC4F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		87D5428E1BA5CAFA003ADC4F /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		87D5428F1BA5CAFA003ADC4F /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		87D542921BA5EE50003ADC4F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		87D542931BA5EE50003ADC4F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		87D542D31BA64153003ADC4F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		87D542D51BAF57D2003ADC4F /* MenuDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDetailsViewController.h; sourceTree = "<group>"; };
+		87D542D61BAF57D3003ADC4F /* MenuDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDetailsViewController.m; sourceTree = "<group>"; };
+		87D542D81BAF6CD3003ADC4F /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		87D542D91BAF6CD3003ADC4F /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		87D542DC1BAF8E39003ADC4F /* DYAlertPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAlertPickView.h; sourceTree = "<group>"; };
+		87D542DD1BAF8E39003ADC4F /* DYAlertPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAlertPickView.m; sourceTree = "<group>"; };
+		87D542E11BAFB8A4003ADC4F /* PKPayment+Stripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKPayment+Stripe.h"; sourceTree = "<group>"; };
+		87D542E21BAFB8A4003ADC4F /* PKPayment+Stripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKPayment+Stripe.m"; sourceTree = "<group>"; };
+		87D542E31BAFB8A4003ADC4F /* STPAPIClient+ApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STPAPIClient+ApplePay.m"; sourceTree = "<group>"; };
+		87D542E41BAFB8A4003ADC4F /* Stripe+ApplePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Stripe+ApplePay.m"; sourceTree = "<group>"; };
+		87D542E61BAFB8A4003ADC4F /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		87D542E71BAFB8A4003ADC4F /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		87D542E81BAFB8A4003ADC4F /* Project-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		87D542E91BAFB8A4003ADC4F /* StripeiOS Tests-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS Tests-Debug.xcconfig"; sourceTree = "<group>"; };
+		87D542EA1BAFB8A4003ADC4F /* StripeiOS Tests-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS Tests-Release.xcconfig"; sourceTree = "<group>"; };
+		87D542EB1BAFB8A4003ADC4F /* StripeiOS Tests-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS Tests-Shared.xcconfig"; sourceTree = "<group>"; };
+		87D542EC1BAFB8A4003ADC4F /* StripeiOS-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		87D542ED1BAFB8A4003ADC4F /* StripeiOS-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS-Release.xcconfig"; sourceTree = "<group>"; };
+		87D542EE1BAFB8A4003ADC4F /* StripeiOS-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeiOS-Shared.xcconfig"; sourceTree = "<group>"; };
+		87D542EF1BAFB8A4003ADC4F /* StripeiOSStatic.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StripeiOSStatic.xcconfig; sourceTree = "<group>"; };
+		87D542F01BAFB8A4003ADC4F /* StripeiOSStaticFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StripeiOSStaticFramework.xcconfig; sourceTree = "<group>"; };
+		87D542F11BAFB8A4003ADC4F /* StripeOSX-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSX-Debug.xcconfig"; sourceTree = "<group>"; };
+		87D542F21BAFB8A4003ADC4F /* StripeOSX-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSX-Release.xcconfig"; sourceTree = "<group>"; };
+		87D542F31BAFB8A4003ADC4F /* StripeOSX-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSX-Shared.xcconfig"; sourceTree = "<group>"; };
+		87D542F41BAFB8A4003ADC4F /* StripeOSXTests-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSXTests-Debug.xcconfig"; sourceTree = "<group>"; };
+		87D542F51BAFB8A4003ADC4F /* StripeOSXTests-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSXTests-Release.xcconfig"; sourceTree = "<group>"; };
+		87D542F61BAFB8A4003ADC4F /* StripeOSXTests-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StripeOSXTests-Shared.xcconfig"; sourceTree = "<group>"; };
+		87D542F81BAFB8A4003ADC4F /* STPCheckoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutDelegate.h; sourceTree = "<group>"; };
+		87D542F91BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutInternalUIWebViewController.h; sourceTree = "<group>"; };
+		87D542FA1BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutInternalUIWebViewController.m; sourceTree = "<group>"; };
+		87D542FB1BAFB8A4003ADC4F /* STPCheckoutOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutOptions.m; sourceTree = "<group>"; };
+		87D542FC1BAFB8A4003ADC4F /* STPCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCheckoutViewController.m; sourceTree = "<group>"; };
+		87D542FD1BAFB8A4003ADC4F /* STPCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		87D542FE1BAFB8A4003ADC4F /* STPColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPColorUtils.h; sourceTree = "<group>"; };
+		87D542FF1BAFB8A4003ADC4F /* STPColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPColorUtils.m; sourceTree = "<group>"; };
+		87D543001BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPIOSCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		87D543011BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPIOSCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		87D543021BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPOSXCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		87D543031BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPOSXCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		87D543041BAFB8A4003ADC4F /* STPStrictURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPStrictURLProtocol.h; sourceTree = "<group>"; };
+		87D543051BAFB8A4003ADC4F /* STPStrictURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPStrictURLProtocol.m; sourceTree = "<group>"; };
+		87D543061BAFB8A4003ADC4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D543071BAFB8A4003ADC4F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		87D5430A1BAFB8A4003ADC4F /* STPAPIClient+ApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STPAPIClient+ApplePay.h"; sourceTree = "<group>"; };
+		87D5430B1BAFB8A4003ADC4F /* Stripe+ApplePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stripe+ApplePay.h"; sourceTree = "<group>"; };
+		87D5430D1BAFB8A4003ADC4F /* STPCheckoutOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutOptions.h; sourceTree = "<group>"; };
+		87D5430E1BAFB8A4003ADC4F /* STPCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCheckoutViewController.h; sourceTree = "<group>"; };
+		87D5430F1BAFB8A4003ADC4F /* STPAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPAPIClient.h; sourceTree = "<group>"; };
+		87D543101BAFB8A4003ADC4F /* STPBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPBankAccount.h; sourceTree = "<group>"; };
+		87D543111BAFB8A4003ADC4F /* STPCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCard.h; sourceTree = "<group>"; };
+		87D543121BAFB8A4003ADC4F /* STPCardBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCardBrand.h; sourceTree = "<group>"; };
+		87D543131BAFB8A4003ADC4F /* STPCardValidationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCardValidationState.h; sourceTree = "<group>"; };
+		87D543141BAFB8A4003ADC4F /* STPCardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCardValidator.h; sourceTree = "<group>"; };
+		87D543151BAFB8A4003ADC4F /* STPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPToken.h; sourceTree = "<group>"; };
+		87D543161BAFB8A4003ADC4F /* Stripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stripe.h; sourceTree = "<group>"; };
+		87D543171BAFB8A4003ADC4F /* StripeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeError.h; sourceTree = "<group>"; };
+		87D543191BAFB8A4003ADC4F /* STPPaymentCardTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPaymentCardTextField.h; sourceTree = "<group>"; };
+		87D5431C1BAFB8A4003ADC4F /* stp_card_amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_amex.png; sourceTree = "<group>"; };
+		87D5431D1BAFB8A4003ADC4F /* stp_card_amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_amex@2x.png"; sourceTree = "<group>"; };
+		87D5431E1BAFB8A4003ADC4F /* stp_card_amex@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_amex@3x.png"; sourceTree = "<group>"; };
+		87D5431F1BAFB8A4003ADC4F /* stp_card_cvc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_cvc.png; sourceTree = "<group>"; };
+		87D543201BAFB8A4003ADC4F /* stp_card_cvc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_cvc@2x.png"; sourceTree = "<group>"; };
+		87D543211BAFB8A4003ADC4F /* stp_card_cvc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_cvc@3x.png"; sourceTree = "<group>"; };
+		87D543221BAFB8A4003ADC4F /* stp_card_cvc_amex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_cvc_amex.png; sourceTree = "<group>"; };
+		87D543231BAFB8A4003ADC4F /* stp_card_cvc_amex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_cvc_amex@2x.png"; sourceTree = "<group>"; };
+		87D543241BAFB8A4003ADC4F /* stp_card_cvc_amex@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_cvc_amex@3x.png"; sourceTree = "<group>"; };
+		87D543251BAFB8A4003ADC4F /* stp_card_diners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_diners.png; sourceTree = "<group>"; };
+		87D543261BAFB8A4003ADC4F /* stp_card_diners@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_diners@2x.png"; sourceTree = "<group>"; };
+		87D543271BAFB8A4003ADC4F /* stp_card_diners@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_diners@3x.png"; sourceTree = "<group>"; };
+		87D543281BAFB8A4003ADC4F /* stp_card_discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_discover.png; sourceTree = "<group>"; };
+		87D543291BAFB8A4003ADC4F /* stp_card_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_discover@2x.png"; sourceTree = "<group>"; };
+		87D5432A1BAFB8A4003ADC4F /* stp_card_discover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_discover@3x.png"; sourceTree = "<group>"; };
+		87D5432B1BAFB8A4003ADC4F /* stp_card_jcb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_jcb.png; sourceTree = "<group>"; };
+		87D5432C1BAFB8A4003ADC4F /* stp_card_jcb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_jcb@2x.png"; sourceTree = "<group>"; };
+		87D5432D1BAFB8A4003ADC4F /* stp_card_jcb@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_jcb@3x.png"; sourceTree = "<group>"; };
+		87D5432E1BAFB8A4003ADC4F /* stp_card_mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_mastercard.png; sourceTree = "<group>"; };
+		87D5432F1BAFB8A4003ADC4F /* stp_card_mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_mastercard@2x.png"; sourceTree = "<group>"; };
+		87D543301BAFB8A4003ADC4F /* stp_card_mastercard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_mastercard@3x.png"; sourceTree = "<group>"; };
+		87D543311BAFB8A4003ADC4F /* stp_card_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_placeholder.png; sourceTree = "<group>"; };
+		87D543321BAFB8A4003ADC4F /* stp_card_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_placeholder@2x.png"; sourceTree = "<group>"; };
+		87D543331BAFB8A4003ADC4F /* stp_card_placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_placeholder@3x.png"; sourceTree = "<group>"; };
+		87D543341BAFB8A4003ADC4F /* stp_card_placeholder_template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_placeholder_template.png; sourceTree = "<group>"; };
+		87D543351BAFB8A4003ADC4F /* stp_card_placeholder_template@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_placeholder_template@2x.png"; sourceTree = "<group>"; };
+		87D543361BAFB8A4003ADC4F /* stp_card_placeholder_template@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_placeholder_template@3x.png"; sourceTree = "<group>"; };
+		87D543371BAFB8A4003ADC4F /* stp_card_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stp_card_visa.png; sourceTree = "<group>"; };
+		87D543381BAFB8A4003ADC4F /* stp_card_visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_visa@2x.png"; sourceTree = "<group>"; };
+		87D543391BAFB8A4003ADC4F /* stp_card_visa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stp_card_visa@3x.png"; sourceTree = "<group>"; };
+		87D5433A1BAFB8A4003ADC4F /* STPAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPAPIClient.m; sourceTree = "<group>"; };
+		87D5433B1BAFB8A4003ADC4F /* STPAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPAPIConnection.h; sourceTree = "<group>"; };
+		87D5433C1BAFB8A4003ADC4F /* STPAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPAPIConnection.m; sourceTree = "<group>"; };
+		87D5433D1BAFB8A4003ADC4F /* STPBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPBankAccount.m; sourceTree = "<group>"; };
+		87D5433E1BAFB8A4003ADC4F /* STPCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCard.m; sourceTree = "<group>"; };
+		87D5433F1BAFB8A4003ADC4F /* STPCardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCardValidator.m; sourceTree = "<group>"; };
+		87D543401BAFB8A4003ADC4F /* STPFormEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPFormEncoder.h; sourceTree = "<group>"; };
+		87D543411BAFB8A4003ADC4F /* STPFormEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPFormEncoder.m; sourceTree = "<group>"; };
+		87D543421BAFB8A4003ADC4F /* STPToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPToken.m; sourceTree = "<group>"; };
+		87D543431BAFB8A4003ADC4F /* StripeError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeError.m; sourceTree = "<group>"; };
+		87D543451BAFB8A4003ADC4F /* STPFormTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPFormTextField.h; sourceTree = "<group>"; };
+		87D543461BAFB8A4003ADC4F /* STPFormTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPFormTextField.m; sourceTree = "<group>"; };
+		87D543471BAFB8A4003ADC4F /* STPPaymentCardTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPaymentCardTextField.m; sourceTree = "<group>"; };
+		87D543481BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPPaymentCardTextFieldViewModel.h; sourceTree = "<group>"; };
+		87D543491BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPPaymentCardTextFieldViewModel.m; sourceTree = "<group>"; };
+		87D543901BAFB934003ADC4F /* RWStripeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWStripeViewController.h; sourceTree = "<group>"; };
+		87D543911BAFB934003ADC4F /* RWStripeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWStripeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876FF0321B91009B00A9C611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D542D41BA64153003ADC4F /* MapKit.framework in Frameworks */,
+				87CF595F1B912CE0006EBD14 /* SystemConfiguration.framework in Frameworks */,
+				87CF595D1B912CC3006EBD14 /* AddressBook.framework in Frameworks */,
+				87CF59551B9119D7006EBD14 /* StoreKit.framework in Frameworks */,
+				876FF0641B9100E400A9C611 /* FBSDKLoginKit.framework in Frameworks */,
+				876FF0631B9100E400A9C611 /* FBSDKCoreKit.framework in Frameworks */,
+				876FF0651B9100E400A9C611 /* FBSDKShareKit.framework in Frameworks */,
+				876FF06F1B910DE600A9C611 /* GoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FF04B1B91009B00A9C611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876FF02C1B91009B00A9C611 = {
+			isa = PBXGroup;
+			children = (
+				87D543901BAFB934003ADC4F /* RWStripeViewController.h */,
+				87D543911BAFB934003ADC4F /* RWStripeViewController.m */,
+				87D542DB1BAF8E39003ADC4F /* DYAlertPickerView */,
+				87D542D81BAF6CD3003ADC4F /* IQDropDownTextField.h */,
+				87D542D91BAF6CD3003ADC4F /* IQDropDownTextField.m */,
+				87D542D51BAF57D2003ADC4F /* MenuDetailsViewController.h */,
+				87D542D61BAF57D3003ADC4F /* MenuDetailsViewController.m */,
+				87D542D31BA64153003ADC4F /* MapKit.framework */,
+				87D542911BA5EE22003ADC4F /* SWRevealViewController */,
+				87D5428E1BA5CAFA003ADC4F /* SidebarTableViewController.h */,
+				87D5428F1BA5CAFA003ADC4F /* SidebarTableViewController.m */,
+				87D5425E1BA5B34F003ADC4F /* New Group */,
+				87CF5A081B9D4C4A006EBD14 /* JuiceDetailViewController.h */,
+				87CF5A091B9D4C4A006EBD14 /* JuiceDetailViewController.m */,
+				87CF5A0A1B9D4C4A006EBD14 /* JuiceDetailViewController.xib */,
+				87CF59ED1B9D45F6006EBD14 /* Juice.h */,
+				87CF59EE1B9D45F6006EBD14 /* Juice.m */,
+				87CF59F01B9D4633006EBD14 /* JSON */,
+				87CF59FE1B9D4633006EBD14 /* JSON-Url */,
+				87CF59961B9D3A3D006EBD14 /* YSLContainerViewController */,
+				87CF595E1B912CE0006EBD14 /* SystemConfiguration.framework */,
+				87CF595C1B912CC3006EBD14 /* AddressBook.framework */,
+				87CF59541B9119D7006EBD14 /* StoreKit.framework */,
+				876FF0371B91009B00A9C611 /* Salud Juicery ios */,
+				876FF0511B91009B00A9C611 /* Salud Juicery iosTests */,
+				876FF0361B91009B00A9C611 /* Products */,
+				87D542DF1BAFB8A4003ADC4F /* Stripe */,
+				876FF06C1B910DE600A9C611 /* GoogleSignIn.bundle */,
+				876FF06D1B910DE600A9C611 /* GoogleSignIn.framework */,
+				876FF05E1B9100E400A9C611 /* FacebookSDKStrings.bundle */,
+				876FF05F1B9100E400A9C611 /* FBSDKCoreKit.framework */,
+				876FF0601B9100E400A9C611 /* FBSDKLoginKit.framework */,
+				876FF0611B9100E400A9C611 /* FBSDKShareKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		876FF0361B91009B00A9C611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876FF0351B91009B00A9C611 /* Salud Juicery ios.app */,
+				876FF04E1B91009B00A9C611 /* Salud Juicery iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876FF0371B91009B00A9C611 /* Salud Juicery ios */ = {
+			isa = PBXGroup;
+			children = (
+				876FF03C1B91009B00A9C611 /* AppDelegate.h */,
+				876FF03D1B91009B00A9C611 /* AppDelegate.m */,
+				876FF03F1B91009B00A9C611 /* ViewController.h */,
+				876FF0401B91009B00A9C611 /* ViewController.m */,
+				876FF0661B91092B00A9C611 /* LoginViewController.h */,
+				876FF0671B91092B00A9C611 /* LoginViewController.m */,
+				87D5428B1BA5C80B003ADC4F /* HomeViewController.h */,
+				87D5428C1BA5C80B003ADC4F /* HomeViewController.m */,
+				87D542851BA5C5D0003ADC4F /* LoyaltyViewController.h */,
+				87D542861BA5C5D0003ADC4F /* LoyaltyViewController.m */,
+				87D542821BA5C58E003ADC4F /* LocationViewController.h */,
+				87D542831BA5C58E003ADC4F /* LocationViewController.m */,
+				87D5425F1BA5B408003ADC4F /* SmootheesCell.h */,
+				87D542601BA5B408003ADC4F /* SmootheesCell.m */,
+				87D542611BA5B408003ADC4F /* SmootheesCell.xib */,
+				87CF59601B913C93006EBD14 /* MenuViewController.h */,
+				87CF59611B913C93006EBD14 /* MenuViewController.m */,
+				876FF0691B9109D200A9C611 /* Settings.h */,
+				876FF06A1B9109D200A9C611 /* Settings.m */,
+				87CF59631B913E54006EBD14 /* Utility.h */,
+				87CF59641B913E54006EBD14 /* Utility.m */,
+				876FF0421B91009B00A9C611 /* Main.storyboard */,
+				87CF59BB1B9D3BC7006EBD14 /* BowlsListViewController.h */,
+				87CF59BC1B9D3BC7006EBD14 /* BowlsListViewController.m */,
+				87CF59BD1B9D3BC7006EBD14 /* BowlsListViewController.xib */,
+				87CF59B61B9D3B9E006EBD14 /* JuicesListViewController.h */,
+				87CF59B71B9D3B9E006EBD14 /* JuicesListViewController.m */,
+				87CF59B81B9D3B9E006EBD14 /* JuicesListViewController.xib */,
+				87D5426E1BA5B86C003ADC4F /* HealthshotsCell.h */,
+				87D5426F1BA5B86C003ADC4F /* HealthshotsCell.m */,
+				87D542701BA5B86C003ADC4F /* HealthshotsCell.xib */,
+				87D542711BA5B86C003ADC4F /* HealthshotsListViewController.h */,
+				87D542721BA5B86C003ADC4F /* HealthshotsListViewController.m */,
+				87D542731BA5B86C003ADC4F /* HealthshotsListViewController.xib */,
+				87CF59E31B9D3E59006EBD14 /* BowlsCell.h */,
+				87CF59E41B9D3E59006EBD14 /* BowlsCell.m */,
+				87CF59E51B9D3E59006EBD14 /* BowlsCell.xib */,
+				87D5427D1BA5BD1A003ADC4F /* HotbrevCell.h */,
+				87D5427E1BA5BD1A003ADC4F /* HotbrevCell.m */,
+				87D5427F1BA5BD1A003ADC4F /* HotbrevCell.xib */,
+				87D542781BA5BCD1003ADC4F /* HotbrevListViewController.h */,
+				87D542791BA5BCD1003ADC4F /* HotbrevListViewController.m */,
+				87D5427A1BA5BCD1003ADC4F /* HotbrevListViewController.xib */,
+				87D542591BA5B33D003ADC4F /* SmootheesListViewController.h */,
+				87D5425A1BA5B33D003ADC4F /* SmootheesListViewController.m */,
+				87D5425B1BA5B33D003ADC4F /* SmootheesListViewController.xib */,
+				87CF59DE1B9D3E38006EBD14 /* JuicesCell.h */,
+				87CF59DF1B9D3E38006EBD14 /* JuicesCell.m */,
+				87CF59E01B9D3E38006EBD14 /* JuicesCell.xib */,
+				876FF0451B91009B00A9C611 /* Images.xcassets */,
+				876FF0471B91009B00A9C611 /* LaunchScreen.xib */,
+				876FF0381B91009B00A9C611 /* Supporting Files */,
+			);
+			path = "Salud Juicery ios";
+			sourceTree = "<group>";
+		};
+		876FF0381B91009B00A9C611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876FF0391B91009B00A9C611 /* Info.plist */,
+				87CF595A1B912614006EBD14 /* GoogleService-Info.plist */,
+				876FF03A1B91009B00A9C611 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		876FF0511B91009B00A9C611 /* Salud Juicery iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				876FF0541B91009B00A9C611 /* Salud_Juicery_iosTests.m */,
+				876FF0521B91009B00A9C611 /* Supporting Files */,
+			);
+			path = "Salud Juicery iosTests";
+			sourceTree = "<group>";
+		};
+		876FF0521B91009B00A9C611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876FF0531B91009B00A9C611 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87CF59961B9D3A3D006EBD14 /* YSLContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87CF599D1B9D3A65006EBD14 /* Resources */,
+				87CF59971B9D3A3D006EBD14 /* YSLContainerViewController.h */,
+				87CF59981B9D3A3D006EBD14 /* YSLContainerViewController.m */,
+				87CF59991B9D3A3D006EBD14 /* YSLScrollMenuView.h */,
+				87CF599A1B9D3A3D006EBD14 /* YSLScrollMenuView.m */,
+			);
+			path = YSLContainerViewController;
+			sourceTree = "<group>";
+		};
+		87CF599D1B9D3A65006EBD14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87CF599E1B9D3A65006EBD14 /* photo_sample_01.png */,
+				87CF599F1B9D3A65006EBD14 /* photo_sample_02.png */,
+				87CF59A01B9D3A65006EBD14 /* photo_sample_03.png */,
+				87CF59A11B9D3A65006EBD14 /* photo_sample_04.png */,
+				87CF59A21B9D3A65006EBD14 /* photo_sample_05.png */,
+				87CF59A31B9D3A65006EBD14 /* photo_sample_06.png */,
+				87CF59A41B9D3A65006EBD14 /* photo_sample_07.png */,
+				87CF59A51B9D3A65006EBD14 /* photo_sample_08.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87CF59F01B9D4633006EBD14 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				87CF59F11B9D4633006EBD14 /* JSON.h */,
+				87CF59F21B9D4633006EBD14 /* NSObject+SBJSON.h */,
+				87CF59F31B9D4633006EBD14 /* NSObject+SBJSON.m */,
+				87CF59F41B9D4633006EBD14 /* NSString+SBJSON.h */,
+				87CF59F51B9D4633006EBD14 /* NSString+SBJSON.m */,
+				87CF59F61B9D4633006EBD14 /* SBJSON.h */,
+				87CF59F71B9D4633006EBD14 /* SBJSON.m */,
+				87CF59F81B9D4633006EBD14 /* SBJsonBase.h */,
+				87CF59F91B9D4633006EBD14 /* SBJsonBase.m */,
+				87CF59FA1B9D4633006EBD14 /* SBJsonParser.h */,
+				87CF59FB1B9D4633006EBD14 /* SBJsonParser.m */,
+				87CF59FC1B9D4633006EBD14 /* SBJsonWriter.h */,
+				87CF59FD1B9D4633006EBD14 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		87CF59FE1B9D4633006EBD14 /* JSON-Url */ = {
+			isa = PBXGroup;
+			children = (
+				87CF59FF1B9D4633006EBD14 /* myJson.h */,
+				87CF5A001B9D4633006EBD14 /* myJson.m */,
+			);
+			path = "JSON-Url";
+			sourceTree = "<group>";
+		};
+		87D5425E1BA5B34F003ADC4F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		87D542911BA5EE22003ADC4F /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				87D542921BA5EE50003ADC4F /* SWRevealViewController.h */,
+				87D542931BA5EE50003ADC4F /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		87D542DB1BAF8E39003ADC4F /* DYAlertPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				87D542DC1BAF8E39003ADC4F /* DYAlertPickView.h */,
+				87D542DD1BAF8E39003ADC4F /* DYAlertPickView.m */,
+			);
+			path = DYAlertPickerView;
+			sourceTree = "<group>";
+		};
+		87D542DF1BAFB8A4003ADC4F /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				87D542E01BAFB8A4003ADC4F /* ApplePay */,
+				87D542E51BAFB8A4003ADC4F /* BuildConfigurations */,
+				87D542F71BAFB8A4003ADC4F /* Checkout */,
+				87D543061BAFB8A4003ADC4F /* Info.plist */,
+				87D543071BAFB8A4003ADC4F /* module.modulemap */,
+				87D543081BAFB8A4003ADC4F /* PublicHeaders */,
+				87D5431A1BAFB8A4003ADC4F /* Resources */,
+				87D5433A1BAFB8A4003ADC4F /* STPAPIClient.m */,
+				87D5433B1BAFB8A4003ADC4F /* STPAPIConnection.h */,
+				87D5433C1BAFB8A4003ADC4F /* STPAPIConnection.m */,
+				87D5433D1BAFB8A4003ADC4F /* STPBankAccount.m */,
+				87D5433E1BAFB8A4003ADC4F /* STPCard.m */,
+				87D5433F1BAFB8A4003ADC4F /* STPCardValidator.m */,
+				87D543401BAFB8A4003ADC4F /* STPFormEncoder.h */,
+				87D543411BAFB8A4003ADC4F /* STPFormEncoder.m */,
+				87D543421BAFB8A4003ADC4F /* STPToken.m */,
+				87D543431BAFB8A4003ADC4F /* StripeError.m */,
+				87D543441BAFB8A4003ADC4F /* UI */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		87D542E01BAFB8A4003ADC4F /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				87D542E11BAFB8A4003ADC4F /* PKPayment+Stripe.h */,
+				87D542E21BAFB8A4003ADC4F /* PKPayment+Stripe.m */,
+				87D542E31BAFB8A4003ADC4F /* STPAPIClient+ApplePay.m */,
+				87D542E41BAFB8A4003ADC4F /* Stripe+ApplePay.m */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		87D542E51BAFB8A4003ADC4F /* BuildConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				87D542E61BAFB8A4003ADC4F /* Project-Debug.xcconfig */,
+				87D542E71BAFB8A4003ADC4F /* Project-Release.xcconfig */,
+				87D542E81BAFB8A4003ADC4F /* Project-Shared.xcconfig */,
+				87D542E91BAFB8A4003ADC4F /* StripeiOS Tests-Debug.xcconfig */,
+				87D542EA1BAFB8A4003ADC4F /* StripeiOS Tests-Release.xcconfig */,
+				87D542EB1BAFB8A4003ADC4F /* StripeiOS Tests-Shared.xcconfig */,
+				87D542EC1BAFB8A4003ADC4F /* StripeiOS-Debug.xcconfig */,
+				87D542ED1BAFB8A4003ADC4F /* StripeiOS-Release.xcconfig */,
+				87D542EE1BAFB8A4003ADC4F /* StripeiOS-Shared.xcconfig */,
+				87D542EF1BAFB8A4003ADC4F /* StripeiOSStatic.xcconfig */,
+				87D542F01BAFB8A4003ADC4F /* StripeiOSStaticFramework.xcconfig */,
+				87D542F11BAFB8A4003ADC4F /* StripeOSX-Debug.xcconfig */,
+				87D542F21BAFB8A4003ADC4F /* StripeOSX-Release.xcconfig */,
+				87D542F31BAFB8A4003ADC4F /* StripeOSX-Shared.xcconfig */,
+				87D542F41BAFB8A4003ADC4F /* StripeOSXTests-Debug.xcconfig */,
+				87D542F51BAFB8A4003ADC4F /* StripeOSXTests-Release.xcconfig */,
+				87D542F61BAFB8A4003ADC4F /* StripeOSXTests-Shared.xcconfig */,
+			);
+			path = BuildConfigurations;
+			sourceTree = "<group>";
+		};
+		87D542F71BAFB8A4003ADC4F /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				87D542F81BAFB8A4003ADC4F /* STPCheckoutDelegate.h */,
+				87D542F91BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.h */,
+				87D542FA1BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.m */,
+				87D542FB1BAFB8A4003ADC4F /* STPCheckoutOptions.m */,
+				87D542FC1BAFB8A4003ADC4F /* STPCheckoutViewController.m */,
+				87D542FD1BAFB8A4003ADC4F /* STPCheckoutWebViewAdapter.h */,
+				87D542FE1BAFB8A4003ADC4F /* STPColorUtils.h */,
+				87D542FF1BAFB8A4003ADC4F /* STPColorUtils.m */,
+				87D543001BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.h */,
+				87D543011BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.m */,
+				87D543021BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.h */,
+				87D543031BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.m */,
+				87D543041BAFB8A4003ADC4F /* STPStrictURLProtocol.h */,
+				87D543051BAFB8A4003ADC4F /* STPStrictURLProtocol.m */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		87D543081BAFB8A4003ADC4F /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				87D543091BAFB8A4003ADC4F /* ApplePay */,
+				87D5430C1BAFB8A4003ADC4F /* Checkout */,
+				87D5430F1BAFB8A4003ADC4F /* STPAPIClient.h */,
+				87D543101BAFB8A4003ADC4F /* STPBankAccount.h */,
+				87D543111BAFB8A4003ADC4F /* STPCard.h */,
+				87D543121BAFB8A4003ADC4F /* STPCardBrand.h */,
+				87D543131BAFB8A4003ADC4F /* STPCardValidationState.h */,
+				87D543141BAFB8A4003ADC4F /* STPCardValidator.h */,
+				87D543151BAFB8A4003ADC4F /* STPToken.h */,
+				87D543161BAFB8A4003ADC4F /* Stripe.h */,
+				87D543171BAFB8A4003ADC4F /* StripeError.h */,
+				87D543181BAFB8A4003ADC4F /* UI */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		87D543091BAFB8A4003ADC4F /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				87D5430A1BAFB8A4003ADC4F /* STPAPIClient+ApplePay.h */,
+				87D5430B1BAFB8A4003ADC4F /* Stripe+ApplePay.h */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		87D5430C1BAFB8A4003ADC4F /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				87D5430D1BAFB8A4003ADC4F /* STPCheckoutOptions.h */,
+				87D5430E1BAFB8A4003ADC4F /* STPCheckoutViewController.h */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		87D543181BAFB8A4003ADC4F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				87D543191BAFB8A4003ADC4F /* STPPaymentCardTextField.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		87D5431A1BAFB8A4003ADC4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87D5431B1BAFB8A4003ADC4F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		87D5431B1BAFB8A4003ADC4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				87D5431C1BAFB8A4003ADC4F /* stp_card_amex.png */,
+				87D5431D1BAFB8A4003ADC4F /* stp_card_amex@2x.png */,
+				87D5431E1BAFB8A4003ADC4F /* stp_card_amex@3x.png */,
+				87D5431F1BAFB8A4003ADC4F /* stp_card_cvc.png */,
+				87D543201BAFB8A4003ADC4F /* stp_card_cvc@2x.png */,
+				87D543211BAFB8A4003ADC4F /* stp_card_cvc@3x.png */,
+				87D543221BAFB8A4003ADC4F /* stp_card_cvc_amex.png */,
+				87D543231BAFB8A4003ADC4F /* stp_card_cvc_amex@2x.png */,
+				87D543241BAFB8A4003ADC4F /* stp_card_cvc_amex@3x.png */,
+				87D543251BAFB8A4003ADC4F /* stp_card_diners.png */,
+				87D543261BAFB8A4003ADC4F /* stp_card_diners@2x.png */,
+				87D543271BAFB8A4003ADC4F /* stp_card_diners@3x.png */,
+				87D543281BAFB8A4003ADC4F /* stp_card_discover.png */,
+				87D543291BAFB8A4003ADC4F /* stp_card_discover@2x.png */,
+				87D5432A1BAFB8A4003ADC4F /* stp_card_discover@3x.png */,
+				87D5432B1BAFB8A4003ADC4F /* stp_card_jcb.png */,
+				87D5432C1BAFB8A4003ADC4F /* stp_card_jcb@2x.png */,
+				87D5432D1BAFB8A4003ADC4F /* stp_card_jcb@3x.png */,
+				87D5432E1BAFB8A4003ADC4F /* stp_card_mastercard.png */,
+				87D5432F1BAFB8A4003ADC4F /* stp_card_mastercard@2x.png */,
+				87D543301BAFB8A4003ADC4F /* stp_card_mastercard@3x.png */,
+				87D543311BAFB8A4003ADC4F /* stp_card_placeholder.png */,
+				87D543321BAFB8A4003ADC4F /* stp_card_placeholder@2x.png */,
+				87D543331BAFB8A4003ADC4F /* stp_card_placeholder@3x.png */,
+				87D543341BAFB8A4003ADC4F /* stp_card_placeholder_template.png */,
+				87D543351BAFB8A4003ADC4F /* stp_card_placeholder_template@2x.png */,
+				87D543361BAFB8A4003ADC4F /* stp_card_placeholder_template@3x.png */,
+				87D543371BAFB8A4003ADC4F /* stp_card_visa.png */,
+				87D543381BAFB8A4003ADC4F /* stp_card_visa@2x.png */,
+				87D543391BAFB8A4003ADC4F /* stp_card_visa@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		87D543441BAFB8A4003ADC4F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				87D543451BAFB8A4003ADC4F /* STPFormTextField.h */,
+				87D543461BAFB8A4003ADC4F /* STPFormTextField.m */,
+				87D543471BAFB8A4003ADC4F /* STPPaymentCardTextField.m */,
+				87D543481BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.h */,
+				87D543491BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876FF0341B91009B00A9C611 /* Salud Juicery ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876FF0581B91009B00A9C611 /* Build configuration list for PBXNativeTarget "Salud Juicery ios" */;
+			buildPhases = (
+				876FF0311B91009B00A9C611 /* Sources */,
+				876FF0321B91009B00A9C611 /* Frameworks */,
+				876FF0331B91009B00A9C611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salud Juicery ios";
+			productName = "Salud Juicery ios";
+			productReference = 876FF0351B91009B00A9C611 /* Salud Juicery ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876FF04D1B91009B00A9C611 /* Salud Juicery iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876FF05B1B91009B00A9C611 /* Build configuration list for PBXNativeTarget "Salud Juicery iosTests" */;
+			buildPhases = (
+				876FF04A1B91009B00A9C611 /* Sources */,
+				876FF04B1B91009B00A9C611 /* Frameworks */,
+				876FF04C1B91009B00A9C611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876FF0501B91009B00A9C611 /* PBXTargetDependency */,
+			);
+			name = "Salud Juicery iosTests";
+			productName = "Salud Juicery iosTests";
+			productReference = 876FF04E1B91009B00A9C611 /* Salud Juicery iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876FF02D1B91009B00A9C611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Salud Juice Team";
+				TargetAttributes = {
+					876FF0341B91009B00A9C611 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					876FF04D1B91009B00A9C611 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 876FF0341B91009B00A9C611;
+					};
+				};
+			};
+			buildConfigurationList = 876FF0301B91009B00A9C611 /* Build configuration list for PBXProject "Salud Juicery ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876FF02C1B91009B00A9C611;
+			productRefGroup = 876FF0361B91009B00A9C611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876FF0341B91009B00A9C611 /* Salud Juicery ios */,
+				876FF04D1B91009B00A9C611 /* Salud Juicery iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876FF0331B91009B00A9C611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D5435A1BAFB8A4003ADC4F /* StripeOSX-Shared.xcconfig in Resources */,
+				876FF0441B91009B00A9C611 /* Main.storyboard in Resources */,
+				87D542751BA5B86C003ADC4F /* HealthshotsCell.xib in Resources */,
+				87CF59BA1B9D3B9E006EBD14 /* JuicesListViewController.xib in Resources */,
+				87D5427C1BA5BCD1003ADC4F /* HotbrevListViewController.xib in Resources */,
+				87D543571BAFB8A4003ADC4F /* StripeiOSStaticFramework.xcconfig in Resources */,
+				87D543501BAFB8A4003ADC4F /* StripeiOS Tests-Debug.xcconfig in Resources */,
+				87D543721BAFB8A4003ADC4F /* stp_card_diners@3x.png in Resources */,
+				87D543701BAFB8A4003ADC4F /* stp_card_diners.png in Resources */,
+				87D543541BAFB8A4003ADC4F /* StripeiOS-Release.xcconfig in Resources */,
+				87D543691BAFB8A4003ADC4F /* stp_card_amex@3x.png in Resources */,
+				87D543651BAFB8A4003ADC4F /* Info.plist in Resources */,
+				87D543751BAFB8A4003ADC4F /* stp_card_discover@3x.png in Resources */,
+				87D5437B1BAFB8A4003ADC4F /* stp_card_mastercard@3x.png in Resources */,
+				87D5425D1BA5B33D003ADC4F /* SmootheesListViewController.xib in Resources */,
+				87D5436B1BAFB8A4003ADC4F /* stp_card_cvc@2x.png in Resources */,
+				87D543711BAFB8A4003ADC4F /* stp_card_diners@2x.png in Resources */,
+				876FF06E1B910DE600A9C611 /* GoogleSignIn.bundle in Resources */,
+				87D543841BAFB8A4003ADC4F /* stp_card_visa@3x.png in Resources */,
+				87CF59AB1B9D3A65006EBD14 /* photo_sample_06.png in Resources */,
+				87D543681BAFB8A4003ADC4F /* stp_card_amex@2x.png in Resources */,
+				87D543821BAFB8A4003ADC4F /* stp_card_visa.png in Resources */,
+				87D5437D1BAFB8A4003ADC4F /* stp_card_placeholder@2x.png in Resources */,
+				87CF59E21B9D3E38006EBD14 /* JuicesCell.xib in Resources */,
+				87D5436C1BAFB8A4003ADC4F /* stp_card_cvc@3x.png in Resources */,
+				87D5435B1BAFB8A4003ADC4F /* StripeOSXTests-Debug.xcconfig in Resources */,
+				87CF59A71B9D3A65006EBD14 /* photo_sample_02.png in Resources */,
+				87D543761BAFB8A4003ADC4F /* stp_card_jcb.png in Resources */,
+				87D543591BAFB8A4003ADC4F /* StripeOSX-Release.xcconfig in Resources */,
+				87D5437C1BAFB8A4003ADC4F /* stp_card_placeholder.png in Resources */,
+				876FF0491B91009B00A9C611 /* LaunchScreen.xib in Resources */,
+				87CF59AA1B9D3A65006EBD14 /* photo_sample_05.png in Resources */,
+				87D5435C1BAFB8A4003ADC4F /* StripeOSXTests-Release.xcconfig in Resources */,
+				87D5437F1BAFB8A4003ADC4F /* stp_card_placeholder_template.png in Resources */,
+				87CF59AC1B9D3A65006EBD14 /* photo_sample_07.png in Resources */,
+				87D543531BAFB8A4003ADC4F /* StripeiOS-Debug.xcconfig in Resources */,
+				87D543521BAFB8A4003ADC4F /* StripeiOS Tests-Shared.xcconfig in Resources */,
+				87D5436E1BAFB8A4003ADC4F /* stp_card_cvc_amex@2x.png in Resources */,
+				87D5436F1BAFB8A4003ADC4F /* stp_card_cvc_amex@3x.png in Resources */,
+				87D5435D1BAFB8A4003ADC4F /* StripeOSXTests-Shared.xcconfig in Resources */,
+				87D543771BAFB8A4003ADC4F /* stp_card_jcb@2x.png in Resources */,
+				87D543561BAFB8A4003ADC4F /* StripeiOSStatic.xcconfig in Resources */,
+				87D543801BAFB8A4003ADC4F /* stp_card_placeholder_template@2x.png in Resources */,
+				87CF59A91B9D3A65006EBD14 /* photo_sample_04.png in Resources */,
+				87D543831BAFB8A4003ADC4F /* stp_card_visa@2x.png in Resources */,
+				87D5437A1BAFB8A4003ADC4F /* stp_card_mastercard@2x.png in Resources */,
+				87D543511BAFB8A4003ADC4F /* StripeiOS Tests-Release.xcconfig in Resources */,
+				87D543781BAFB8A4003ADC4F /* stp_card_jcb@3x.png in Resources */,
+				87D543811BAFB8A4003ADC4F /* stp_card_placeholder_template@3x.png in Resources */,
+				87CF59A61B9D3A65006EBD14 /* photo_sample_01.png in Resources */,
+				87CF59E71B9D3E59006EBD14 /* BowlsCell.xib in Resources */,
+				87D542771BA5B86C003ADC4F /* HealthshotsListViewController.xib in Resources */,
+				87CF59A81B9D3A65006EBD14 /* photo_sample_03.png in Resources */,
+				87D5436A1BAFB8A4003ADC4F /* stp_card_cvc.png in Resources */,
+				87D5436D1BAFB8A4003ADC4F /* stp_card_cvc_amex.png in Resources */,
+				87CF59AD1B9D3A65006EBD14 /* photo_sample_08.png in Resources */,
+				876FF0461B91009B00A9C611 /* Images.xcassets in Resources */,
+				87D543581BAFB8A4003ADC4F /* StripeOSX-Debug.xcconfig in Resources */,
+				87D543741BAFB8A4003ADC4F /* stp_card_discover@2x.png in Resources */,
+				87D543551BAFB8A4003ADC4F /* StripeiOS-Shared.xcconfig in Resources */,
+				876FF0621B9100E400A9C611 /* FacebookSDKStrings.bundle in Resources */,
+				87D543731BAFB8A4003ADC4F /* stp_card_discover.png in Resources */,
+				87D5434E1BAFB8A4003ADC4F /* Project-Release.xcconfig in Resources */,
+				87D5434F1BAFB8A4003ADC4F /* Project-Shared.xcconfig in Resources */,
+				87CF5A0C1B9D4C4A006EBD14 /* JuiceDetailViewController.xib in Resources */,
+				87D543791BAFB8A4003ADC4F /* stp_card_mastercard.png in Resources */,
+				87D5437E1BAFB8A4003ADC4F /* stp_card_placeholder@3x.png in Resources */,
+				87CF59BF1B9D3BC7006EBD14 /* BowlsListViewController.xib in Resources */,
+				87CF595B1B912614006EBD14 /* GoogleService-Info.plist in Resources */,
+				87D542631BA5B408003ADC4F /* SmootheesCell.xib in Resources */,
+				87D5434D1BAFB8A4003ADC4F /* Project-Debug.xcconfig in Resources */,
+				87D543671BAFB8A4003ADC4F /* stp_card_amex.png in Resources */,
+				87D542811BA5BD1B003ADC4F /* HotbrevCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FF04C1B91009B00A9C611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876FF0311B91009B00A9C611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D5435E1BAFB8A4003ADC4F /* STPCheckoutInternalUIWebViewController.m in Sources */,
+				87D5438F1BAFB8A4003ADC4F /* STPPaymentCardTextFieldViewModel.m in Sources */,
+				87D542D71BAF57D3003ADC4F /* MenuDetailsViewController.m in Sources */,
+				87CF59E11B9D3E38006EBD14 /* JuicesCell.m in Sources */,
+				87D542841BA5C58E003ADC4F /* LocationViewController.m in Sources */,
+				87D543601BAFB8A4003ADC4F /* STPCheckoutViewController.m in Sources */,
+				87D5435F1BAFB8A4003ADC4F /* STPCheckoutOptions.m in Sources */,
+				87D542621BA5B408003ADC4F /* SmootheesCell.m in Sources */,
+				87D5427B1BA5BCD1003ADC4F /* HotbrevListViewController.m in Sources */,
+				87D542741BA5B86C003ADC4F /* HealthshotsCell.m in Sources */,
+				87CF59BE1B9D3BC7006EBD14 /* BowlsListViewController.m in Sources */,
+				876FF0681B91092B00A9C611 /* LoginViewController.m in Sources */,
+				87CF599B1B9D3A3D006EBD14 /* YSLContainerViewController.m in Sources */,
+				87D543611BAFB8A4003ADC4F /* STPColorUtils.m in Sources */,
+				87D542941BA5EE50003ADC4F /* SWRevealViewController.m in Sources */,
+				87CF59621B913C93006EBD14 /* MenuViewController.m in Sources */,
+				87D542DE1BAF8E39003ADC4F /* DYAlertPickView.m in Sources */,
+				87CF5A041B9D4633006EBD14 /* SBJsonBase.m in Sources */,
+				87D543861BAFB8A4003ADC4F /* STPAPIConnection.m in Sources */,
+				87CF59B91B9D3B9E006EBD14 /* JuicesListViewController.m in Sources */,
+				87D543871BAFB8A4003ADC4F /* STPBankAccount.m in Sources */,
+				87D5438A1BAFB8A4003ADC4F /* STPFormEncoder.m in Sources */,
+				87D543661BAFB8A4003ADC4F /* module.modulemap in Sources */,
+				87CF5A021B9D4633006EBD14 /* NSString+SBJSON.m in Sources */,
+				87D543621BAFB8A4003ADC4F /* STPIOSCheckoutWebViewAdapter.m in Sources */,
+				87CF599C1B9D3A3D006EBD14 /* YSLScrollMenuView.m in Sources */,
+				87D542901BA5CAFA003ADC4F /* SidebarTableViewController.m in Sources */,
+				876FF0411B91009B00A9C611 /* ViewController.m in Sources */,
+				876FF06B1B9109D200A9C611 /* Settings.m in Sources */,
+				87D543851BAFB8A4003ADC4F /* STPAPIClient.m in Sources */,
+				87D5425C1BA5B33D003ADC4F /* SmootheesListViewController.m in Sources */,
+				87CF5A051B9D4633006EBD14 /* SBJsonParser.m in Sources */,
+				87CF59EF1B9D45F6006EBD14 /* Juice.m in Sources */,
+				87D542761BA5B86C003ADC4F /* HealthshotsListViewController.m in Sources */,
+				87D5438D1BAFB8A4003ADC4F /* STPFormTextField.m in Sources */,
+				87D5434B1BAFB8A4003ADC4F /* STPAPIClient+ApplePay.m in Sources */,
+				87D542871BA5C5D0003ADC4F /* LoyaltyViewController.m in Sources */,
+				87D542801BA5BD1B003ADC4F /* HotbrevCell.m in Sources */,
+				87D5438E1BAFB8A4003ADC4F /* STPPaymentCardTextField.m in Sources */,
+				87CF5A011B9D4633006EBD14 /* NSObject+SBJSON.m in Sources */,
+				87D5438C1BAFB8A4003ADC4F /* StripeError.m in Sources */,
+				87D543891BAFB8A4003ADC4F /* STPCardValidator.m in Sources */,
+				87D543881BAFB8A4003ADC4F /* STPCard.m in Sources */,
+				87CF5A031B9D4633006EBD14 /* SBJSON.m in Sources */,
+				87D5434A1BAFB8A4003ADC4F /* PKPayment+Stripe.m in Sources */,
+				87D5428D1BA5C80B003ADC4F /* HomeViewController.m in Sources */,
+				87CF59651B913E54006EBD14 /* Utility.m in Sources */,
+				87CF5A061B9D4633006EBD14 /* SBJsonWriter.m in Sources */,
+				87D542DA1BAF6CD3003ADC4F /* IQDropDownTextField.m in Sources */,
+				87D543631BAFB8A4003ADC4F /* STPOSXCheckoutWebViewAdapter.m in Sources */,
+				87D5434C1BAFB8A4003ADC4F /* Stripe+ApplePay.m in Sources */,
+				876FF03E1B91009B00A9C611 /* AppDelegate.m in Sources */,
+				87D543921BAFB934003ADC4F /* RWStripeViewController.m in Sources */,
+				87CF5A0B1B9D4C4A006EBD14 /* JuiceDetailViewController.m in Sources */,
+				87D543641BAFB8A4003ADC4F /* STPStrictURLProtocol.m in Sources */,
+				876FF03B1B91009B00A9C611 /* main.m in Sources */,
+				87D5438B1BAFB8A4003ADC4F /* STPToken.m in Sources */,
+				87CF59E61B9D3E59006EBD14 /* BowlsCell.m in Sources */,
+				87CF5A071B9D4633006EBD14 /* myJson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FF04A1B91009B00A9C611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876FF0551B91009B00A9C611 /* Salud_Juicery_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876FF0501B91009B00A9C611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876FF0341B91009B00A9C611 /* Salud Juicery ios */;
+			targetProxy = 876FF04F1B91009B00A9C611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876FF0421B91009B00A9C611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876FF0431B91009B00A9C611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876FF0471B91009B00A9C611 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876FF0481B91009B00A9C611 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876FF0561B91009B00A9C611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876FF0571B91009B00A9C611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876FF0591B91009B00A9C611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/saludjuiceteam/Documents/FacebookSDK,
+					/Users/saludjuiceteam/Documents/google_signin_sdk_2_2_0,
+				);
+				INFOPLIST_FILE = "Salud Juicery ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		876FF05A1B91009B00A9C611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/saludjuiceteam/Documents/FacebookSDK,
+					/Users/saludjuiceteam/Documents/google_signin_sdk_2_2_0,
+				);
+				INFOPLIST_FILE = "Salud Juicery ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		876FF05C1B91009B00A9C611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Salud Juicery iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salud Juicery ios.app/Salud Juicery ios";
+			};
+			name = Debug;
+		};
+		876FF05D1B91009B00A9C611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Salud Juicery iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salud Juicery ios.app/Salud Juicery ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876FF0301B91009B00A9C611 /* Build configuration list for PBXProject "Salud Juicery ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FF0561B91009B00A9C611 /* Debug */,
+				876FF0571B91009B00A9C611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876FF0581B91009B00A9C611 /* Build configuration list for PBXNativeTarget "Salud Juicery ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FF0591B91009B00A9C611 /* Debug */,
+				876FF05A1B91009B00A9C611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876FF05B1B91009B00A9C611 /* Build configuration list for PBXNativeTarget "Salud Juicery iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FF05C1B91009B00A9C611 /* Debug */,
+				876FF05D1B91009B00A9C611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876FF02D1B91009B00A9C611 /* Project object */;
+}
